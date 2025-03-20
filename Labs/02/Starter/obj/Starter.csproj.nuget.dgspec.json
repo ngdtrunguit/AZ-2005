@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/kira/Desktop/Repo/Lab2-AZ2005/AZ-2005-Develop-AI-agents-OpenAI-Semantic-Kernel-SDK/Allfiles/Labs/02/Starter/Starter.csproj": {}
+  },
+  "projects": {
+    "/Users/kira/Desktop/Repo/Lab2-AZ2005/AZ-2005-Develop-AI-agents-OpenAI-Semantic-Kernel-SDK/Allfiles/Labs/02/Starter/Starter.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kira/Desktop/Repo/Lab2-AZ2005/AZ-2005-Develop-AI-agents-OpenAI-Semantic-Kernel-SDK/Allfiles/Labs/02/Starter/Starter.csproj",
+        "projectName": "Starter",
+        "projectPath": "/Users/kira/Desktop/Repo/Lab2-AZ2005/AZ-2005-Develop-AI-agents-OpenAI-Semantic-Kernel-SDK/Allfiles/Labs/02/Starter/Starter.csproj",
+        "packagesPath": "/Users/kira/.nuget/packages/",
+        "outputPath": "/Users/kira/Desktop/Repo/Lab2-AZ2005/AZ-2005-Develop-AI-agents-OpenAI-Semantic-Kernel-SDK/Allfiles/Labs/02/Starter/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kira/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.SemanticKernel": {
+              "target": "Package",
+              "version": "[1.30.0, )"
+            },
+            "Microsoft.SemanticKernel.PromptTemplates.Handlebars": {
+              "target": "Package",
+              "version": "[1.30.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
